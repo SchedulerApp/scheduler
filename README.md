@@ -12,7 +12,7 @@
   5. Start the client web server(in a separate terminal) using the `npm start` command from reactServer directory. The client interface app will be served at <http://localhost:8000/>.
   6. Go to <http://localhost:8000/> in your browser and check out the features of this web page.
   7. If you are running the local host go to the file `useApplicationData.js` located in folder `hooks` and update all of the end points to use <http://localhost:8000
-  8. When running the app locally there might be an issue loading the images. This is due to the 1st line of code in the package.json `"homepage": "http://schedulerapp.io/schedulerapp",`, that line of code was placed there for deployment, you can remove it while working locally, in case the images aren't loading.
+  8. When running the app locally there might be an issue loading the images. This is due to the 1st line of code in the package.json `"homepage": "http://schedulerapp.io/scheduler",`, that line of code was placed there for deployment, you can remove it while working locally, in case the images aren't loading.
 
 ## Running Tests
   - This app is setup with testing capabilities for both jest and cypress.
